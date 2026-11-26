@@ -1339,11 +1339,14 @@ label.chk{display:flex;gap:8px;align-items:flex-start;margin:6px 0;font-weight:5
 
 <section id="inselspiel" style="padding-top:8px">
   <div class="wrap">
-    <a href="ruegen-spiel.html" style="display:block;text-decoration:none;color:#f4e7c4;background:linear-gradient(135deg,#13213a,#1f5f7a);border-radius:16px;padding:26px 24px;border:1px solid rgba(226,194,122,.45)">
+    <style>.insp{display:grid;grid-template-columns:minmax(0,220px) minmax(0,1fr);gap:24px;align-items:center;text-decoration:none;color:#f4e7c4;background:linear-gradient(135deg,#13213a,#1f5f7a);border-radius:16px;padding:26px 24px;border:1px solid rgba(226,194,122,.45)}.insp video{width:100%;aspect-ratio:9/16;border-radius:12px;object-fit:cover;background:#0b1424;box-shadow:0 8px 24px rgba(0,0,0,.35)}@media(max-width:600px){.insp{grid-template-columns:minmax(0,1fr)}.insp video{max-width:240px;margin:0 auto}}</style>
+    <a class="insp" href="ruegen-spiel.html">
+      <video src="ruegen-spiel-short.mp4" poster="ruegen-spiel-short.jpg" autoplay muted loop playsinline preload="metadata" aria-hidden="true"></video><div>
       <div class="eyebrow" style="color:#e2c27a">Spiel</div>
       <h2 style="color:#e2c27a;margin:.2em 0 .3em">Rügen als Strategiespiel</h2>
       <p style="margin:0 0 16px;max-width:680px">Die Insel als Hex-Karte wie in Civilization: 39 Gemeinden, echte Zahlen zu Einwohnern und Übernachtungen, 40 Ausflugsziele und Inselaufträge zum Mitraten.</p>
       <span class="btn" style="display:inline-block">Jetzt spielen</span>
+      </div>
     </a>
   </div>
 </section>
